@@ -1,0 +1,292 @@
+dn: dc=acme,dc=com
+objectClass: domain
+objectClass: top
+dc: acme
+entryUUID: 47038b33-a445-3fc1-b9cc-96ca394ab765
+
+dn: ou=Pessoas,dc=acme,dc=com
+objectClass: organizationalUnit
+objectClass: top
+ou: Pessoas
+entryUUID: a74e66b5-ff04-463c-b97a-3844663ce7b9
+createTimestamp: 20160211225345Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=SEDE,ou=Pessoas,dc=acme,dc=com
+objectClass: organizationalUnit
+objectClass: top
+ou: SEDE
+entryUUID: de818e10-48cf-4910-8a39-b3147de0dc86
+createTimestamp: 20160211225408Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: ou=FILIAIS,ou=Pessoas,dc=acme,dc=com
+objectClass: organizationalUnit
+objectClass: top
+ou: FILIAIS
+entryUUID: ed3f9fad-6bb7-4374-a2b3-dcec011714a2
+createTimestamp: 20160212213625Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: cn=Fulano01,ou=FILIAIS,ou=Pessoas,dc=acme,dc=com
+objectClass: person
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: top
+uid: 000840222500
+cn: Fulano01
+sn: Fulano01
+userPassword: {SSHA}TZolCuAT/RGzT4LicN0Ka6oM1kTNNPDjWBXT6w==
+createTimestamp: 20160212213647Z
+entryUUID: 87aad932-83a8-466f-a089-49255c55a6f7
+pwdChangedTime: 20160212213647.318Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+modifiersName: cn=Directory Manager,cn=Root DNs,cn=config
+modifyTimestamp: 20170905014442Z
+
+dn: cn=FulanoA,ou=SEDE,ou=Pessoas,dc=acme,dc=com
+objectClass: person
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: top
+uid: 002217012550
+cn: FulanoA
+sn: FulanoA
+userPassword: {SSHA}KCVcY4/A9/82N1rSgUz12xgluZPyYTurTyeI9A==
+createTimestamp: 20170905013415Z
+entryUUID: b2625a77-60cb-4157-abdd-f9cf5816def6
+pwdChangedTime: 20170905013415.127Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+modifiersName: cn=Directory Manager,cn=Root DNs,cn=config
+modifyTimestamp: 20170905030608Z
+
+dn: cn=FulanoB,ou=SEDE,ou=Pessoas,dc=acme,dc=com
+objectClass: person
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: top
+uid: 001154962569
+cn: FulanoB
+sn: FulanoB
+userPassword: {SSHA}xgVZlCRiV44TOTEiTL5uQKzjM1HmqGLzpr92RA==
+createTimestamp: 20170905013511Z
+entryUUID: 4e068f9c-701d-4e5e-b51b-c28d3b5d1e0d
+pwdChangedTime: 20170905013511.802Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+modifiersName: cn=Directory Manager,cn=Root DNs,cn=config
+modifyTimestamp: 20170905030617Z
+
+dn: cn=FulanoC,ou=SEDE,ou=Pessoas,dc=acme,dc=com
+objectClass: person
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: top
+uid: 002812852518
+cn: FulanoC
+sn: FulanoC
+userPassword: {SSHA}+ec9hAnP6C/PM/BW1TqulHIsPqSUil/eN7nAnw==
+createTimestamp: 20170905013740Z
+entryUUID: 5fa71143-df4f-4fce-9fb7-63da51541537
+pwdChangedTime: 20170905013740.495Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+modifiersName: cn=Directory Manager,cn=Root DNs,cn=config
+modifyTimestamp: 20170905030626Z
+
+dn: cn=FulanoD,ou=SEDE,ou=Pessoas,dc=acme,dc=com
+objectClass: person
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: top
+uid: 003794262518
+cn: FulanoD
+sn: FulanoD
+userPassword: {SSHA}z9lTJ0EQH3aCnDGh56by29yev+KrEVW+a5DOsw==
+createTimestamp: 20170905013849Z
+entryUUID: 179fa546-dc4b-4049-bb1e-1f01f472463a
+pwdChangedTime: 20170905013849.223Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+modifiersName: cn=Directory Manager,cn=Root DNs,cn=config
+modifyTimestamp: 20170905030635Z
+
+dn: cn=admin,ou=Pessoas,dc=acme,dc=com
+objectClass: person
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: top
+uid: admin
+cn: admin
+sn: admin
+userPassword: {SSHA}krlWno6gQBS/W6KjzuskdufOl3+Meo3kLZ1wNw==
+entryUUID: f680ad20-2cae-418c-bb49-c6c81ce92b8b
+pwdChangedTime: 20170905030705.324Z
+createTimestamp: 20170905030705Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: cn=FulanoX,ou=SEDE,ou=Pessoas,dc=acme,dc=com
+objectClass: person
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: top
+uid: 002824992500
+sn: FulanoX
+userPassword: {SSHA}/x58aTXSChTX2b7jZOmkh+bCHnqTTDZSk1Oivw==
+cn: FulanoX
+createTimestamp: 20170906033236Z
+entryUUID: 4c392004-94d5-4fb1-9b6e-dbb933495dba
+pwdChangedTime: 20170906033236.109Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: cn=FulanoY,ou=SEDE,ou=Pessoas,dc=acme,dc=com
+objectClass: person
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: top
+uid: 003597322569
+sn: FulanoY
+userPassword: {SSHA}B2a1A9XsEjrgdeb/E2Ra5ixiMF5fIzMogBc5QA==
+cn: FulanoY
+createTimestamp: 20170906033414Z
+entryUUID: d2881f7b-f18d-406c-83ae-597eb466ff95
+pwdChangedTime: 20170906033414.993Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: cn=FulanoZ,ou=SEDE,ou=Pessoas,dc=acme,dc=com
+objectClass: person
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: top
+uid: 043199680922
+sn: FulanoZ
+userPassword: {SSHA}14fy4V6IWBDv5owItmyahC+KAp/LTxC7UN1eJA==
+cn: FulanoZ
+createTimestamp: 20170906033452Z
+entryUUID: 64029aad-e878-49a6-8934-b455b601e843
+pwdChangedTime: 20170906033452.427Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: cn=FulanoU,ou=SEDE,ou=Pessoas,dc=acme,dc=com
+objectClass: person
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: top
+uid: 003005922550
+sn: FulanoU
+userPassword: {SSHA}mqVUYMNnbotwP+vMsBnLq78jSfHqc4b88Co8Ig==
+cn: FulanoU
+createTimestamp: 20170906033707Z
+entryUUID: fe59df9d-8c7b-417c-a471-af9f8ccd1cef
+pwdChangedTime: 20170906033707.956Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: cn=FulanoP,ou=SEDE,ou=Pessoas,dc=acme,dc=com
+objectClass: person
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: top
+uid: 039369411325
+sn: FulanoP
+userPassword: {SSHA}q4OYwAPW8bYDsml6QeXugxNLcFp4sIXAflcRVQ==
+cn: FulanoP
+createTimestamp: 20170906033749Z
+entryUUID: 12ea54e8-c41f-4464-9755-a3cd62ce26d3
+pwdChangedTime: 20170906033749.595Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: cn=FulanoE,ou=SEDE,ou=Pessoas,dc=acme,dc=com
+objectClass: person
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: top
+uid: 001328252550
+sn: FulanoE
+userPassword: {SSHA}GjAXaHamq8bE2hPXftN14ZJZK/FKQ3Wzt/1yfA==
+cn: FulanoE
+createTimestamp: 20170906033830Z
+entryUUID: d3d5f89a-a0b7-4c75-bee8-e73d58a023ae
+pwdChangedTime: 20170906033830.427Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: cn=Fulano02,ou=FILIAIS,ou=Pessoas,dc=acme,dc=com
+objectClass: person
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: top
+uid: 002867090850
+sn: Fulano02
+userPassword: {SSHA}0WnSvsga7AZoxCMuYaLAyJMeFE+FyhdU/C356w==
+cn: Fulano02
+createTimestamp: 20170906034002Z
+entryUUID: c23d3f6c-509a-4fa4-9263-6e3617f06770
+pwdChangedTime: 20170906034002.497Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: cn=FulanoM,ou=SEDE,ou=Pessoas,dc=acme,dc=com
+objectClass: person
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: top
+uid: 035331911376
+sn: FulanoM
+userPassword: {SSHA}/IZ7PsejQnpPUz5aZjTNjcjkz5BC+Mb5agZb8Q==
+cn: FulanoM
+createTimestamp: 20170906034038Z
+entryUUID: 7b6af3b0-08c5-45c3-87b3-67837bc522b5
+pwdChangedTime: 20170906034038.128Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: cn=FulanoJ,ou=SEDE,ou=Pessoas,dc=acme,dc=com
+objectClass: person
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: top
+uid: 002715002577
+sn: FulanoJ
+userPassword: {SSHA}Czli+4ll6h1OJvGWglIH64OcHouSzlDz6E7dtw==
+cn: FulanoJ
+createTimestamp: 20170906034119Z
+entryUUID: 39a1ec68-b83a-44b2-942a-7896936ba945
+pwdChangedTime: 20170906034119.762Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: cn=FulanoF,ou=SEDE,ou=Pessoas,dc=acme,dc=com
+objectClass: person
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: top
+uid: 004261522569
+sn: FulanoF
+userPassword: {SSHA}A02V6+oySoP7ugwCYKvYk+/+UQ0AQsnED6DUSg==
+cn: FulanoF
+createTimestamp: 20170906034225Z
+entryUUID: fb27fd08-7961-44bb-9669-b1c6625e8d25
+pwdChangedTime: 20170906034225.010Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: cn=FulanoR,ou=SEDE,ou=Pessoas,dc=acme,dc=com
+objectClass: person
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: top
+uid: 001876702585
+sn: FulanoR
+userPassword: {SSHA}loGyT1qB/IAPZnbZs+6z7NrUu6j48PrHVcd41w==
+cn: FulanoR
+createTimestamp: 20170906034318Z
+entryUUID: 9d96eb1c-e0e2-499f-879e-b4c4265a09b4
+pwdChangedTime: 20170906034318.051Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
+dn: cn=Fulano03,ou=FILIAIS,ou=Pessoas,dc=acme,dc=com
+objectClass: person
+objectClass: inetOrgPerson
+objectClass: organizationalPerson
+objectClass: top
+uid: 001239552542
+sn: Fulano03
+userPassword: {SSHA}ha4aIVXkK29cUo3M5xz3ngQ5ZoPGiEgi71dOSw==
+cn: Fulano03
+createTimestamp: 20170906034500Z
+entryUUID: d0ceb3eb-5093-4e19-be57-b7741a86a7a6
+pwdChangedTime: 20170906034500.130Z
+creatorsName: cn=Directory Manager,cn=Root DNs,cn=config
+
