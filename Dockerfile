@@ -1,22 +1,14 @@
-#
-# ForgeRock OpenDJ
-# 
-# FROM java:latest
+# Customized from https://github.com/ghchinoy/forgerock-docker
 FROM davimss/docker-jdk7
-# MAINTAINER G. Hussain Chinoy <ghchinoy@gmail.com>
 MAINTAINER DaviMSS <davimss@gmail.com>
 
 WORKDIR /opt
 
 ENV INSTALLPROP opendj-install.properties
-#ENV STARTSH startOpenDJ
 ENV OPENDJ_FILE OpenDJ-3.0.0.zip
 
 COPY imp.ldif /opt/imp.ldif
 COPY $INSTALLPROP /opt/$INSTALLPROP
-#COPY $STARTSH /opt/$STARTSH
-
-#COPY $OPENDJ_FILE /opt
 
 USER root
 
@@ -29,7 +21,6 @@ RUN set -x \
     && wget -O $OPENDJ_FILE https://www.dropbox.com/s/70s0pscffpvtz93/OpenDJ-3.0.0.zip?dl=1 \ 
     && unzip $OPENDJ_FILE \
     && rm -r $OPENDJ_FILE \
-    # && chmod 755 /opt/$STARTSH \
     && chown caos:caos -fR /opt
 
 USER caos    
@@ -42,7 +33,6 @@ RUN ./bin/status
 
 EXPOSE 4444 1389 1636
 
-# ENTRYPOINT ["/opt/startOpenDJ"]
 CMD ["/opt/opendj/bin/start-ds", "-N"]
 
 # To build the image
